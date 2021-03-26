@@ -1,0 +1,31 @@
+<html>
+<head>
+<title></title>
+<link rel="stylesheet" href="Kwitter_room.css">
+<title>Kwitter Room Page</title>
+<script src="https://www.gstatic.com/firebasejs/8.2.10/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.10/firebase-analytics.js"></script>
+</head>
+<body>
+    <center>
+    <h1 style="color:rgb(251, 255, 0);" id="kwitter_page_header">Kwitter</h1>
+    <sup>
+        <br>
+        <img src="https://marketing.dcassetcdn.com/blog/2019/05/51-letter-k-logos/images/Bright.jpg">
+        </sup>
+        <br><br><br><br>
+        <div id="message_display">
+
+
+        </div>
+        <br>
+        <input class="form-control" type="text" id="msg" placeholder="Type Message Here"> 
+        <br>
+        <br>
+        <br>
+        <button id="send_button" onclick="send()">Send Message</button>
+        </center>
+        <script src="Kwitter_room.js"></script>
+</body>
+
+</html>

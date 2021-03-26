@@ -1,0 +1,55 @@
+img {
+    width:100px;
+}
+#logout {
+background-image:url("https://icons.iconarchive.com/icons/saki/nuoveXT-2/128/Apps-session-logout-icon.png");
+width:150px;
+height:125px;
+}
+body {
+    background-image: url("https://www.teahub.io/photos/full/288-2887478_neon-colors-backgrounds-neon-bright-color-background.jpg");
+}
+label {
+    color:rgb(187, 255, 0);
+    font-size:25px;
+}
+input {
+    width:200px;
+    height:50px;
+    border-radius:600;
+    color:cyan;
+    background-color: rgba(0, 68, 253, 0.308);
+}
+#addroom {
+    width:200px;
+    height:70px;
+    border-radius: 90;
+    background-color:rgba(255, 0, 85, 0.76);
+    font-size: 20px;
+color:black;
+}
+#output {
+    background: thistle;
+    border-radius:20px;
+    border-top:solid 10px #FF00A6;
+    border-bottom: solid 10px turquoise;
+    text-align:center;
+    float:none;
+    padding:10px;
+}
+#message_display {
+    background: thistle;
+    border-radius:20px;
+    border-top:solid 10px #FF00A6;
+    border-bottom: solid 10px turquoise;
+    text-align:center;
+    float:none;
+    padding:10px;
+}
+#send_button {
+color:cyan;
+background-color: rgba(255, 1, 255, 0.507);
+width:500px;
+height:70px;
+font-size: 25px;
+}

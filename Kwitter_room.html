@@ -1,0 +1,37 @@
+<html> 
+<head> 
+<link rel="stylesheet" href="Kwitter_room.css">
+<script src="https://www.gstatic.com/firebasejs/8.2.10/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.10/firebase-analytics.js"></script>
+</head>
+
+<body>
+<div class="container">
+    <button onclick="logout()" id="logout" class="glyphicon glyphicon-log-out btn btn-danger"></button>
+    <center>
+<h1 class="header">Kwitter <sup><br><img src="https://marketing.dcassetcdn.com/blog/2019/05/51-letter-k-logos/images/Bright.jpg"><br></sup></h1>
+
+<h3 id="username_display" class="color_white"></h3>
+<br>
+<br>
+<div class="form-group">
+    <label>Add Room:</label>
+    <center>
+ <input type="text" id="room_name" class="form-control" placeholder="Room Name Here">
+ <br>
+ <br>
+ <button onclick="add_room()" id="addroom">#Add Room</button>
+ </center>
+ <br>
+ <h3>Trending Rooms</h3>
+ <div id="output"></div>
+</div>
+</div>
+</center>
+
+<script src="Kwitter_room.js"></script>
+</body>
+
+
+
+</html>
